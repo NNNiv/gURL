@@ -10,7 +10,7 @@ live/server:
 	--misc.clean_on_exit true
 
 live/tailwind:
-	npx @tailwindcss/cli -i ./tailwind.config.css -o ./static/style.css --watch
+	npx @tailwindcss/cli -i ./tailwind.config.css -o ./static/css/style.css --watch
 
 
 live/sync_assets:
