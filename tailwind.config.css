@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("/static/fonts/JetBrainsMono-ExtraBold.woff2");
+}
+
+@theme {
+  --font-jbm: JetBrainsMono;
+}
